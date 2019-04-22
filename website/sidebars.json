@@ -1,0 +1,38 @@
+{
+  "docs": {
+    "Day One": [
+      "day-one/welcome",
+      "day-one/iiif-introduction",
+      {
+        "type": "subcategory",
+        "label": "IIIF Image API",
+        "ids": [
+          "day-one/image-api",
+          "day-one/image-api-examples",
+          "day-one/image-api-internals"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "IIIF Presentation API",
+        "ids": [
+          "day-one/presentation-api"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Getting started with the IIIF Image API",
+        "ids": [
+          "day-one/getting-started-with-the-image-api",
+          "day-one/iiif-hosting-sass",
+          "day-one/setting-up-cantaloupe",
+          "day-one/configuring-cantaloupe",
+          "day-one/creating-a-basic-image-viewer"
+        ]
+      }
+    ],
+    "Day Two": [
+      
+    ]
+  }
+}
