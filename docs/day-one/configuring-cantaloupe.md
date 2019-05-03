@@ -6,7 +6,7 @@ Congrats now you have your image server up and running! We need to feed it some 
 
 ## Download some images
 
-Go ahead and download a `*.jpg` image from the Internet into your Cantaloupe directory `Cantaloupe-3.4.2`. Here is one [eddie.jpg](https://github.com/sul-cidr/histonets/raw/master/spec/fixtures/images/eddie.jpg) that you can use.
+Go ahead and download a `*.jpg` image from the Internet into your Cantaloupe directory `Cantaloupe-4.1.1`. Here is one [eddie.jpg](https://github.com/sul-cidr/histonets/raw/master/spec/fixtures/images/eddie.jpg) that you can use.
 
 ## Configure Cantaloupe to use the correct path
 
@@ -14,7 +14,7 @@ Now we need to configure Cantaloupe to use that image directory.
 
 Navigate to the admin page [http://127.0.0.1:8182/admin](http://127.0.0.1:8182/admin).
 
-Click on "Resolver", then click "FilesystemResolver" tab.
+Click on "Source", then click "FilesystemSource" tab.
 
 Next fill in Path Prefix to be `./`
 

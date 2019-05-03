@@ -116,16 +116,16 @@ Community Groups
 * Museums
 * Newspapers
 * Outreach
-* Text Granulaity
+* Text Granularity
 * 3D
+* Archives
 
-Tehnial Specification Groups
+Technical Specification Groups
 * A/V 
 * Discovery
 * Software Developers
 
 ## The Future
-* Archives interest group
 * IIIF 3.0 - support for audiovisual content
 
 #### Videos

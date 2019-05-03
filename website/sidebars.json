@@ -2,7 +2,14 @@
   "docs": {
     "Day One": [
       "day-one/welcome",
-      "day-one/iiif-introduction",
+      {
+        "type": "subcategory",
+        "label": "IIIF Introduction",
+        "ids": [
+          "day-one/use-cases",
+          "day-one/iiif-introduction"
+        ]
+      },
       {
         "type": "subcategory",
         "label": "IIIF Image API",
@@ -24,7 +31,7 @@
         "label": "Getting started with the IIIF Image API",
         "ids": [
           "day-one/getting-started-with-the-image-api",
-          "day-one/iiif-hosting-sass",
+          "day-one/iiif-hosting-saas",
           "day-one/setting-up-cantaloupe",
           "day-one/configuring-cantaloupe",
           "day-one/creating-a-basic-image-viewer"
@@ -32,7 +39,26 @@
       }
     ],
     "Day Two": [
-      
+      {
+        "type": "subcategory",
+        "label": "IIIF Presentation API Deep Dive",
+        "ids": [
+          "day-two/manifest",
+          "day-two/manifest-structure",
+          "day-two/create-your-own-manifest",
+          "day-two/serving-your-manifest",
+          "day-two/viewing-your-manifest-in-a-viewer"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Using the Presentation API",
+        "ids": [
+          "day-two/create-your-own-manifest",
+          "day-two/serving-your-manifest",
+          "day-two/viewing-your-manifest-in-a-viewer"
+        ]
+      }
     ]
   }
 }

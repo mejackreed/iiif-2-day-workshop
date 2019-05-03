@@ -8,14 +8,14 @@ Make sure you have [installed the prerequisites](https://gist.github.com/mejackr
 
 For more information, checkout the [Cantaloupe getting started guide](https://medusa-project.github.io/cantaloupe/manual/3.4/getting-started.html).
 
-Download [Cantaloupe v3.4.2](https://github.com/medusa-project/cantaloupe/releases/download/v3.4.2/Cantaloupe-3.4.2.zip)
+Download [Cantaloupe v4.1.1](https://github.com/medusa-project/cantaloupe/releases/download/v4.1.1/cantaloupe-4.1.1.zip)
 
 Open and extract the zip file to your directory of choosing. We suggest `~/Desktop`.
 
 Now change directory to that extracted directory
 
 ```sh
-$ cd ~/Desktop/Cantaloupe-3.4.2
+$ cd ~/Desktop/Cantaloupe-4.1.1
 ```
 
 ## Configure Cantaloupe
@@ -28,7 +28,7 @@ $ cp cantaloupe.properties.sample cantaloupe.properties
 
 Now lets enable the admin panel where we will modify the rest of the settings.
 
-Scroll to line 104, and change `false` to `true`. Also add a password.
+Scroll to line 105, and change `false` to `true`. Also add a password.
 
 ```diff
 # Enables the Control Panel, at /admin.
@@ -38,12 +38,22 @@ Scroll to line 104, and change `false` to `true`. Also add a password.
 + admin.secret = yolo
 ```
 
+We need to make one more change here. Scroll to line 297 and change `AutomaticSelectionStrategy` to `ManualSelectionStrategy`
+
+```diff
+# * If set to `ManualSelectionStrategy`, a processor will be chosen based
+#   on the rest of the keys in this section.
+- processor.selection_strategy = AutomaticSelectionStrategy
++ processor.selection_strategy = ManualSelectionStrategy
+
+```
+
 Save the file.
 
 Now lets try and start the server. Run this command from your Cantaloupe directory
 
 ```sh
-$ java -Dcantaloupe.config=./cantaloupe.properties -Xmx2g -jar Cantaloupe-3.3.1.war
+$ java -Dcantaloupe.config=./cantaloupe.properties -Xmx2g -jar Cantaloupe-4.1.1.war
 ```
 
 Now navigate to [http://127.0.0.1:8182/iiif/2](http://127.0.0.1:8182/iiif/2) in your browser.

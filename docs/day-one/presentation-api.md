@@ -21,11 +21,3 @@ Several "Presentation API Clients" have been written over the last few years at 
 [IIIF Curation Viewer]( http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=http://iiif.bodleian.ox.ac.uk/iiif/manifest/e32a277e-91e2-4a6d-8ba6-cc4bad230410.json )
 
 ![IIIF Presentation vs. Image API Interface](/img/image_and_presentation_highlighted.png)
-
-## Enhanced Interoperability
-### Drag and Drop
-### Annotations
-## Advanced Representation Features
-### Reunification of Broken Books
-### Reunification of Fragmented Pages
-### Multispectral Image Layers
