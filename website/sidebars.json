@@ -56,7 +56,15 @@
         "ids": [
           "day-two/create-your-own-manifest",
           "day-two/serving-your-manifest",
-          "day-two/viewing-your-manifest-in-a-viewer"
+          "day-two/viewing-your-manifest-in-a-viewer",
+          "day-two/adding-annotations"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Using IIIF Content on the Web",
+        "ids": [
+          "day-two/using-iiif-content"
         ]
       }
     ]
